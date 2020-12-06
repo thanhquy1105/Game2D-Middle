@@ -4,7 +4,7 @@ using System.Collections;
 public class ArrowScript : MonoBehaviour
 {
 
-	private float arrowSpeed = 4.0f;
+	private float arrowSpeed = 6.0f;
 	private bool canShootStickyArrow;
 
 	[SerializeField]

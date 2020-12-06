@@ -403,6 +403,7 @@ GameObject:
   - component: {fileID: 69203355}
   - component: {fileID: 69203357}
   - component: {fileID: 69203356}
+  - component: {fileID: 69203358}
   m_Layer: 5
   m_Name: Coin Score Button
   m_TagString: Untagged
@@ -468,6 +469,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69203354}
   m_CullTransparentMesh: 0
+--- !u!114 &69203358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69203354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 69203356}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7390273366758696486}
+        m_MethodName: OpenCoinShop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &69663055
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,7 +713,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: -0}
+  m_AnchoredPosition: {x: 50, y: 0}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &142453513
@@ -831,6 +886,7 @@ GameObject:
   - component: {fileID: 167483629}
   - component: {fileID: 167483631}
   - component: {fileID: 167483630}
+  - component: {fileID: 167483632}
   m_Layer: 5
   m_Name: Play Button
   m_TagString: Untagged
@@ -895,6 +951,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167483628}
   m_CullTransparentMesh: 0
+--- !u!114 &167483632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167483628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 167483630}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7390273366758696486}
+        m_MethodName: PlayGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &172709547
 GameObject:
   m_ObjectHideFlags: 0
@@ -985,7 +1095,7 @@ GameObject:
   - component: {fileID: 175128174}
   - component: {fileID: 175128173}
   m_Layer: 5
-  m_Name: Description
+  m_Name: Watch Video Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1436,7 +1546,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: -0}
+  m_AnchoredPosition: {x: 50, y: 0}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &301756815
@@ -1741,7 +1851,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: -0}
+  m_AnchoredPosition: {x: 60, y: 0}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &399340322
@@ -2050,7 +2160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: -0}
+  m_AnchoredPosition: {x: 60, y: 0}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &433260469
@@ -2186,7 +2296,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &487586513
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2789,7 +2899,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: -0}
+  m_AnchoredPosition: {x: 60, y: 0}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &627106348
@@ -3308,7 +3418,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 712779306}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7390273366758696486}
+        m_MethodName: CloseCoinShop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &712779306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3551,7 +3672,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 754087233}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7390273366758696486}
+        m_MethodName: BuyDoubleArrows
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &754087233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3672,7 +3804,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 822633979}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7390273366758696486}
+        m_MethodName: BuyStickyArrow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &822633979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3744,7 +3887,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: -0}
+  m_AnchoredPosition: {x: 50, y: 0}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &850556784
@@ -3819,7 +3962,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: -0}
+  m_AnchoredPosition: {x: 50, y: 0}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &854161720
@@ -4169,7 +4312,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 910686083}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7390273366758696486}
+        m_MethodName: DontBuyArrows
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &910686083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4592,7 +4746,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1066756079}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7390273366758696486}
+        m_MethodName: OpenWeaponItemsPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1066756079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4760,6 +4925,7 @@ GameObject:
   - component: {fileID: 1103703994}
   - component: {fileID: 1103703996}
   - component: {fileID: 1103703995}
+  - component: {fileID: 1103703997}
   m_Layer: 5
   m_Name: Menu Button
   m_TagString: Untagged
@@ -4824,6 +4990,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103703993}
   m_CullTransparentMesh: 0
+--- !u!114 &1103703997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103703993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1103703995}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7390273366758696486}
+        m_MethodName: GoToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1186808805
 GameObject:
   m_ObjectHideFlags: 0
@@ -5135,7 +5355,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1275527250}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7390273366758696486}
+        m_MethodName: OpenSpecialItemsPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1275527250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5517,7 +5748,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: -0}
+  m_AnchoredPosition: {x: 60, y: 0}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1403706980
@@ -5947,7 +6178,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: -0}
+  m_AnchoredPosition: {x: 60, y: 0}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1508741870
@@ -6022,7 +6253,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: -0}
+  m_AnchoredPosition: {x: 60, y: 0}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1510842225
@@ -6172,7 +6403,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: -0}
+  m_AnchoredPosition: {x: 50, y: 0}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1556555897
@@ -6376,7 +6607,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1576427929}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7390273366758696486}
+        m_MethodName: BuyDoubleStickyArrows
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1576427929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6711,7 +6953,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1620783495
 GameObject:
@@ -6808,7 +7050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1740426978
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7415,7 +7657,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1857243175}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7390273366758696486}
+        m_MethodName: OpenEarnCoinsItemsPanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1857243175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7795,7 +8048,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: -0}
+  m_AnchoredPosition: {x: 60, y: 0}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2114250960
@@ -8070,3 +8323,149 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142859462}
   m_CullTransparentMesh: 0
+--- !u!1001 &7390273366758696485
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 845237991703057422, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: m_Name
+      value: ShopMenuController
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700339254075563288, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.123359054
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700339254075563288, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.49520272
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700339254075563288, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -334.68198
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700339254075563288, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700339254075563288, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700339254075563288, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700339254075563288, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700339254075563288, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700339254075563288, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700339254075563288, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2700339254075563288, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632520444789713071, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: coinText
+      value: 
+      objectReference: {fileID: 411008984}
+    - target: {fileID: 4632520444789713071, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 408867671}
+    - target: {fileID: 4632520444789713071, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: buyArrowsText
+      value: 
+      objectReference: {fileID: 1992409864}
+    - target: {fileID: 4632520444789713071, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: watchVideoText
+      value: 
+      objectReference: {fileID: 175128173}
+    - target: {fileID: 4632520444789713071, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: weaponsTabBtn
+      value: 
+      objectReference: {fileID: 1066756078}
+    - target: {fileID: 4632520444789713071, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: specialTabBtn
+      value: 
+      objectReference: {fileID: 1275527249}
+    - target: {fileID: 4632520444789713071, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: earnCoinsTabBtn
+      value: 
+      objectReference: {fileID: 1857243174}
+    - target: {fileID: 4632520444789713071, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: yesBtn
+      value: 
+      objectReference: {fileID: 1100675540}
+    - target: {fileID: 4632520444789713071, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: weaponItemsPanel
+      value: 
+      objectReference: {fileID: 1740426977}
+    - target: {fileID: 4632520444789713071, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: specialItemsPanel
+      value: 
+      objectReference: {fileID: 396947340}
+    - target: {fileID: 4632520444789713071, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: earnCoinsItemsPanel
+      value: 
+      objectReference: {fileID: 345157284}
+    - target: {fileID: 4632520444789713071, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: coinShopPanel
+      value: 
+      objectReference: {fileID: 487586512}
+    - target: {fileID: 4632520444789713071, guid: 82fa14b5b2be44f40b8a673b433af39e,
+        type: 3}
+      propertyPath: buyArrowsPanel
+      value: 
+      objectReference: {fileID: 1870778073}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 82fa14b5b2be44f40b8a673b433af39e, type: 3}
+--- !u!114 &7390273366758696486 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4632520444789713071, guid: 82fa14b5b2be44f40b8a673b433af39e,
+    type: 3}
+  m_PrefabInstance: {fileID: 7390273366758696485}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711df86c2b660b44f99f859c979bd4b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

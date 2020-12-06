@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7702639996988751459}
   - component: {fileID: 242085308054001141}
   - component: {fileID: 6301070429603414848}
+  - component: {fileID: -4335780633271646450}
   m_Layer: 10
   m_Name: Double Sticky Arrows Collectable
   m_TagString: DoubleStickyArrow
@@ -115,9 +116,21 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.295
+--- !u!114 &-4335780633271646450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145591492074087726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63702ffbbdff5145ac861ee3fae36f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

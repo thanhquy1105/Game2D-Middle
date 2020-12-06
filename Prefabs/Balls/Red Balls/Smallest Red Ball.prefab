@@ -141,3 +141,14 @@ MonoBehaviour:
   popSounds:
   - {fileID: 8300000, guid: 8d703ba96868ccd4d87e592866e1a8ee, type: 3}
   - {fileID: 8300000, guid: fa836f4c250f481468443e67ac770cf4, type: 3}
+  x: 0
+  y: 0
+  collectableItems:
+  - {fileID: 2963713439803300397, guid: cb580d84d4689524ea532e49ff850df8, type: 3}
+  - {fileID: 5546119647491576507, guid: e342f612cbbd0384ca80dbab06234b89, type: 3}
+  - {fileID: 1494624309346197703, guid: f43b7cf62b72e4246b1436102434e5a1, type: 3}
+  - {fileID: 1145591492074087726, guid: 0ac823945b814d440abe52f423be6534, type: 3}
+  - {fileID: 6798125824640028297, guid: 9d9b2ed4110baa047911c2f212736188, type: 3}
+  - {fileID: 7268037613126245925, guid: 0c4a0d1a6ba79c94ba1d5d2840a2102a, type: 3}
+  - {fileID: 6798125824640028297, guid: 9d9b2ed4110baa047911c2f212736188, type: 3}
+  - {fileID: 597837626099201328, guid: b9e7524b001be304690e1797d0e0b62d, type: 3}
